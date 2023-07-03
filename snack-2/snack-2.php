@@ -11,6 +11,9 @@ $name = $_GET['name'];
 $email = $_GET['email'];
 $age = $_GET['number'];
 
-echo $name;
+if($_GET["name"] < strlen(3)){
+    echo "Accesso negato";
+}
+
 
 ?>
