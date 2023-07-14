@@ -1,6 +1,6 @@
 <?php
 
-class Cappello{
+class Cappello extends Indumento{
     public $taglia_cappello;
 
 }
